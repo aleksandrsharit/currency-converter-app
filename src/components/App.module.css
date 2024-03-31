@@ -1,0 +1,34 @@
+.mainComponentsClass {
+    margin-top: 100px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center
+}
+
+.currencyFromClass {
+    margin: 0 10px;
+}
+
+.currencyToClass {
+    margin: 0 10px;
+}
+
+.dataClass {
+    margin-top: 200px;
+}
+
+.buttonClass {
+    position: relative;
+    margin-top: 200px;
+}
+
+.calendarContainer {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999; /* Устанавливаем z-index, чтобы календарь отображался поверх других элементов */
+}
+
+.classButton {
+    margin-bottom: 140px;
+}
